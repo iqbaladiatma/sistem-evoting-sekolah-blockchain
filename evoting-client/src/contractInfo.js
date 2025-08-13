@@ -1,5 +1,5 @@
-// GANTI DENGAN ALAMAT KONTRAK DARI LANGKAH 2
-export const contractAddress = "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512";
+// ALAMAT KONTRAK DI LOCALHOST (akan diupdate otomatis saat deploy)
+export const contractAddress = "0x4ed7c70F96B99c776995fB64377f0d4aB3B0e1C1";
 
 // ABI LENGKAP UNTUK VOTING CONTRACT
 export const contractABI = [
