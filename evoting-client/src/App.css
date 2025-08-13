@@ -1,0 +1,151 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Tambahkan ini di paling bawah App.css */
+.main-content {
+  padding: 2rem;
+  text-align: left;
+}
+
+.admin-panel,
+.candidate-list {
+  background-color: #282c34;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group h3 {
+  margin-top: 0;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 300px;
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 4px;
+  border: none;
+  background-color: #61dafb;
+  color: #282c34;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #21a1f1;
+}
+
+.candidate-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.candidate-list li {
+  background-color: #3a3f4a;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.candidate-list li h3 {
+  margin: 0 0 5px 0;
+  color: #61dafb;
+}
+
+.candidate-list li p {
+  margin: 0;
+}
+
+span {
+  font-weight: bold;
+  color: #61dafb;
+  font-size: 0.8em;
+}
+/* Tambahkan ini di paling bawah App.css */
+.voter-panel {
+  background-color: #282c34;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.voter-panel p {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.status-authorized {
+  color: #98ff98;
+} /* Hijau muda */
+.status-voted {
+  color: #61dafb;
+}
+.status-unauthorized {
+  color: #ff9999;
+} /* Merah muda */
+
+.candidate-info {
+  flex-grow: 1;
+}
+
+.candidate-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vote-button {
+  background-color: #4caf50; /* Hijau */
+  color: white;
+}
+
+.vote-button:disabled {
+  background-color: #555;
+  cursor: not-allowed;
+}
